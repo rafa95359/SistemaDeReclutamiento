@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Inicio de Sesion</title>
+	<link rel="stylesheet" href="bootstrap-4.3.1/dist/css/bootstrap.min.css">
+	<script src="bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+	th {
+		text-align: center;
+	}
+
+	td {
+		text-align: center;
+	}
+
+	body {
+		text-transform: uppercase
+	}
+</style>
+
+<body>
+	<header class="mt-5 justify-content-center">
+		<h1 style="text-align: center;"> Inicio de sesion</h1>
+	</header>
+	<br>
+	<br>
+	<div class="container mt-5">
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<form>
+					<div class="form-group">
+						<label for="role">Tipo Usuario</label>
+						<select name="role" id="role" class="form-control">
+							<option value="">Solicitante de empleo</option>
+							<option value="">Empleador</option>
+							<option value="">Administrador</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Nombre de Usuario</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+							placeholder="Ingrese su correo">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1"> Contraseña </label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					</div>
+					<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+						<label class="form-check-label" for="exampleCheck1">Recordarme</label>
+					</div>
+					<button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+				</form>
+			</div>
+		</div>
+		<br>
+		<hr>
+	</div>
+</body>
+</html>

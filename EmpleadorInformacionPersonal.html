@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Solicitante Información Personal</title>
+	<link rel="stylesheet" href="bootstrap-4.3.1/dist/css/bootstrap.min.css">
+	<script src="bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+	th {
+		text-align: center;
+	}
+
+	td {
+		text-align: center;
+	}
+
+	body {
+		text-transform: uppercase
+	}
+</style>
+
+<body>
+	<header class="mt-5 justify-content-center">
+		<h1 style="text-align: center;">Actualizar Información Empleador</h1>
+	</header>
+	<br>
+	<br>
+	<div class="container mt-5">
+		<div class="row justify-content-center">
+			<div class="col-md-10">
+				<form action="">
+					<h3>Informacion Personal</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="nombreInput">Nombre *</label>
+								<input type="text" class="form-control" id="nombreInput">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="apellidoInput">Apellidos</label>
+								<input type="text" class="form-control" id="apellidoInput">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="segundoNombreInput">Segundo Nombre</label>
+								<input type="text" class="form-control" id="segundoNombreInput">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="correoInput">Correo Electrónico *</label>
+								<input type="email" class="form-control" id="correoInput">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="cargoSelect">Cargo</label>
+								<select class="form-control"  name="cargoSelect" id="cargoSelect">
+									<option value="">IT Manager</option>
+									<option value="">Marketing Manager</option>
+									<option value="">Purchases Manager</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<h3>Informacion de contacto</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="experienciaSelect">Telefono Celular *</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="experienciaSelect">Extension</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="experienciaSelect">Telefono Fijo</label>
+								<input type="text" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6" style="text-align: center;">
+							<button type="submit" class="btn btn-primary">Actualizar</button>
+						</div>
+						<div class="col-sm-6" style="text-align: center">
+							<button type="submit" class="btn btn-danger">Cancelar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<br>
+		<hr>
+	</div>
+</body>
+
+</html>

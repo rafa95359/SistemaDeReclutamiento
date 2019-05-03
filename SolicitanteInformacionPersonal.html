@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Solicitante Información Personal</title>
+	<link rel="stylesheet" href="bootstrap-4.3.1/dist/css/bootstrap.min.css">
+	<script src="bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+	th {
+		text-align: center;
+	}
+
+	td {
+		text-align: center;
+	}
+
+	body {
+		text-transform: uppercase
+	}
+</style>
+
+<body>
+	<header class="mt-5 justify-content-center">
+		<h1 style="text-align: center;">Actualizar Información Personal Solicitante</h1>
+	</header>
+	<br>
+	<br>
+	<div class="container mt-5">
+		<div class="row justify-content-center">
+			<div class="col-md-10">
+				<form action="">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="nombreInput">Nombre *</label>
+								<input type="text" class="form-control" id="nombreInput">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="apellidoInput">Apellidos *</label>
+								<input type="text" class="form-control" id="apellidoInput">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="segundoNombreInput">Segundo Nombre</label>
+								<input type="text" class="form-control" id="segundoNombreInput">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="correoInput">Correo Electrónico *</label>
+								<input type="email" class="form-control" id="correoInput">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="experienciaSelect">Experiencia Laboral</label>
+								<select class="form-control" name="experienciaSelect" id="experienciaSelect">
+									<option value=""> 0-1 Años</option>
+									<option value="">1-2 Años</option>
+									<option value="">2-3 Años</option>
+									<option value="">3-4 Años</option>
+									<option value="">5+ Años</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="tituloSelect">Titulo</label>
+								<select class="form-control" name="tituloSelect" id="tituloSelect">
+									<option value="">Bachiller</option>
+									<option value="">Maestria</option>
+									<option value="">Doctorado</option>
+									<option value="">Ph.D</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="experienciaSelect">Fecha de Nacimiento *</label>
+								<input type="datetime" class="form-control">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="generoSelect">Genero *</label>
+								<select class="form-control" name="generoSelect" id="generoSelect">
+									<option value="">Femenino</option>
+									<option value="">Masculino</option>
+									<option value="">Otros</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="experienciaSelect">Estado Civil</label>
+								<input type="datetime" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="experienciaSelect">Dirección</label>
+								<input type="datetime" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="experienciaSelect">Ciudad</label>
+								<input type="datetime" class="form-control">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="experienciaSelect">Estado*</label>
+								<input type="datetime" class="form-control">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="experienciaSelect">ZIP*</label>
+								<input type="datetime" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="experienciaSelect">Telefono Celular</label>
+								<input type="datetime" class="form-control">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="experienciaSelect">Extensión</label>
+								<input type="datetime" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="experienciaSelect">Telefono Fijo</label>
+								<input type="datetime" class="form-control">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6" style="text-align: center;">
+							<button type="submit" class="btn btn-primary">Actualizar</button>
+						</div>
+						<div class="col-sm-6" style="text-align: center">
+							<button type="submit" class="btn btn-danger">Cancelar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<br>
+		<hr>
+	</div>
+</body>
+
+</html>
