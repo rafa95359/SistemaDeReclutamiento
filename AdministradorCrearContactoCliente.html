@@ -26,7 +26,7 @@
 
 <body>
 	<header class="mt-5 justify-content-center">
-		<h1 style="text-align: center;">Actualizar Información Empleador</h1>
+		<h1 style="text-align: center;">Crear Solicitante</h1>
 	</header>
 	<br>
 	<br>
@@ -34,7 +34,32 @@
 		<div class="row justify-content-center">
 			<div class="col-md-10">
 				<form action="">
-					<h3>Informacion Personal</h3>
+					<h3>INFORMACION DE INICIO DE SESION</h3>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="nombreInput">Nombre de Usuario *</label>
+								<input type="text" class="form-control" id="nombreInput">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="nombreInput">Contraseña *</label>
+								<input type="password" class="form-control" id="nombreInput">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="nombreInput">Confirmar Contraseña *</label>
+								<input type="password" class="form-control" id="nombreInput">
+							</div>
+						</div>
+					</div>
+					<h3>INFORMACION PERSONAL</h3>
 					<div class="row">
 						<div class="col-md-6">
 							<div class="form-group">
@@ -44,7 +69,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
-								<label for="apellidoInput">Apellido Paterno</label>
+								<label for="apellidoInput">Apellido Paterno *</label>
 								<input type="text" class="form-control" id="apellidoInput">
 							</div>
 						</div>
@@ -63,44 +88,55 @@
 							</div>
 						</div>
 					</div>
+					
 					<div class="row">
 						<div class="col-md-6">
 							<div class="form-group">
-								<label for="cargoSelect">Cargo</label>
-								<select class="form-control"  name="cargoSelect" id="cargoSelect">
-									<option value="">IT Manager</option>
-									<option value="">Marketing Manager</option>
-									<option value="">Purchases Manager</option>
+								<label for="experienciaSelect">Puesto</label>
+								<select class="form-control">
+									<option value="">Gerente de Ventas</option>
+									<option value="">Gerente de TI</option>
+									<option value="">Gerente de Marketing</option>
 								</select>
 							</div>
 						</div>
-					</div>
-					<h3>Informacion de contacto</h3>
-					<div class="row">
 						<div class="col-md-6">
+								<div class="form-group">
+									<label for="experienciaSelect">Cliente</label>
+									<select class="form-control">
+											<option value="">Coca-Cola Company</option>
+											<option value=""> Mindtec </option>
+											<option value=""> Cia. MARSA</option>
+										</select>
+								</div>
+							</div>
+					</div>
+					<h3>Informacion de Contacto</h3>
+					<div class="row">
+						<div class="col-md-4">
 							<div class="form-group">
-								<label for="experienciaSelect">Telefono Celular *</label>
-								<input type="text" class="form-control">
+								<label for="experienciaSelect">Telefono Celular</label>
+								<input type="datetime" class="form-control">
 							</div>
 						</div>
-						<div class="col-md-6">
+						<div class="col-md-4">
 							<div class="form-group">
-								<label for="experienciaSelect">Extension</label>
-								<input type="text" class="form-control">
+								<label for="experienciaSelect">Extensión</label>
+								<input type="datetime" class="form-control">
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-3">
 							<div class="form-group">
 								<label for="experienciaSelect">Telefono Fijo</label>
-								<input type="text" class="form-control">
+								<input type="datetime" class="form-control">
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-6" style="text-align: center;">
-							<button type="submit" class="btn btn-primary">Actualizar</button>
+							<button type="submit" class="btn btn-primary">Crear</button>
 						</div>
 						<div class="col-sm-6" style="text-align: center">
 							<button type="submit" class="btn btn-danger">Cancelar</button>
