@@ -26,7 +26,7 @@
 
 <body>
 	<header class="mt-5 justify-content-center">
-		<h1 style="text-align: center;">Crear Cliente</h1>
+		<h1 style="text-align: center;">Crear Empleador</h1>
 	</header>
 	<br>
 	<br>
@@ -34,11 +34,10 @@
 		<div class="row justify-content-center">
 			<div class="col-md-10">
 				<form action="">
-
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
-								<label for="nombreInput">Nombre de la Compañia *</label>
+								<label for="nombreInput">cod Empledor *</label>
 								<input type="text" class="form-control" id="nombreInput">
 							</div>
 						</div>
@@ -46,7 +45,15 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
-								<label for="nombreInput">Direccion *</label>
+								<label for="nombreInput">Nombre del Empleador *</label>
+								<input type="text" class="form-control" id="nombreInput">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="nombreInput">Direccion/referencia*</label>
 								<input type="password" class="form-control" id="nombreInput">
 							</div>
 						</div>
@@ -54,27 +61,17 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="form-group">
-								<label for="nombreInput">Ciudad *</label>
-								<input type="password" class="form-control" id="nombreInput">
+								<label for="nombreInput">Area*</label>
+								<select name="role" id="role" class="form-control">
+									<option value="">Tecnologia</option>
+									<option value="">Mercadotecnia</option>
+									<option value="">Ventas </option>
+								</select>
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="form-group">
-								<label for="nombreInput">Departamento *</label>
-								<input type="password" class="form-control" id="nombreInput">
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<div class="form-group">
-								<label for="nombreInput">ZIP *</label>
-								<input type="password" class="form-control" id="nombreInput">
-							</div>
-						</div>
-					</div>
+					
+
 					<div class="row">
 						<div class="col-sm-6" style="text-align: center;">
 							<button type="submit" class="btn btn-primary">Crear</button>
